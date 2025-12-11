@@ -4,33 +4,34 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portfólio — Edilson Languelo</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-100 text-gray-800">
+<body class="bg-gray-100 text-gray-800 font-sans">
+
   <!-- HEADER -->
-  <header class="bg-white shadow p-6">
+  <header class="bg-white shadow-md p-8">
     <div class="max-w-5xl mx-auto text-center">
-      <h1 class="text-4xl font-bold">Edilson Languelo</h1>
-      <p class="text-lg mt-2">UI/UX Designer & Desenvolvedor Full‑Stack</p>
-      <p class="text-sm text-gray-600">Criação de interfaces modernas, dashboards e soluções completas em Flask.</p>
+      <h1 class="text-5xl font-bold">Edilson Languelo</h1>
+      <p class="text-lg mt-2 text-gray-700">Técnico de TI • Desenvolvedor Python • Formador • UI/UX Designer & Desenvolvedor Full‑Stack</p>
+      <p class="text-sm mt-1 text-gray-500">Criação de interfaces modernas, dashboards e soluções completas em Flask</p>
     </div>
   </header>
 
   <!-- SOBRE MIM -->
-  <section class="max-w-5xl mx-auto p-6 mt-6 bg-white shadow rounded-xl">
-    <h2 class="text-2xl font-semibold mb-4">Sobre Mim</h2>
-    <p>
-      Sou um profissional multidisciplinar com experiência no design e desenvolvimento de aplicações web. Trabalho desde a definição de fluxos e experiência do usuário até a implementação prática da interface, usando abordagens modernas, responsivas e orientadas à usabilidade.
+  <section class="max-w-5xl mx-auto p-8 mt-8 bg-white shadow-md rounded-xl">
+    <h2 class="text-3xl font-semibold mb-4 border-b-2 pb-2 border-gray-200">Sobre Mim</h2>
+    <p class="text-gray-700">
+      Sou Técnico de TI com experiência em suporte, helpdesk, ensino universitário e desenvolvimento de soluções web em Flask. Trabalho desde a definição de fluxos e experiência do usuário até a implementação prática da interface, usando abordagens modernas, responsivas e orientadas à usabilidade.
     </p>
-    <p class="mt-2">
+    <p class="mt-4 text-gray-700">
       Tenho domínio de criação de dashboards, gestão de dados, design de fluxos funcionais e interfaces administrativas. O meu foco é construir soluções simples, intuitivas e visualmente organizadas.
     </p>
   </section>
 
   <!-- COMPETÊNCIAS -->
-  <section class="max-w-5xl mx-auto p-6 mt-6 bg-white shadow rounded-xl">
-    <h2 class="text-2xl font-semibold mb-4">Competências</h2>
-    <ul class="grid grid-cols-1 md:grid-cols-2 gap-3">
+  <section class="max-w-5xl mx-auto p-8 mt-8 bg-white shadow-md rounded-xl">
+    <h2 class="text-3xl font-semibold mb-4 border-b-2 pb-2 border-gray-200">Competências</h2>
+    <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 text-gray-700">
       <li>UI/UX Design para aplicações web</li>
       <li>Fluxos e jornadas de usuário</li>
       <li>Wireframes e protótipos</li>
@@ -44,23 +45,23 @@
   </section>
 
   <!-- PROJETOS -->
-  <section class="max-w-5xl mx-auto p-6 mt-6 bg-white shadow rounded-xl">
-    <h2 class="text-2xl font-semibold mb-6">Projetos</h2>
+  <section class="max-w-5xl mx-auto p-8 mt-8 bg-white shadow-md rounded-xl">
+    <h2 class="text-3xl font-semibold mb-6 border-b-2 pb-2 border-gray-200">Projetos</h2>
 
     <!-- MABOLA PROJECT -->
-    <div class="mb-10">
-      <h3 class="text-xl font-semibold">Sistema de Gestão de Campeonatos — Mabola</h3>
-      <p class="mt-2">
+    <div class="mb-10 p-4 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
+      <h3 class="text-2xl font-semibold">Sistema de Gestão de Campeonatos — Mabola</h3>
+      <p class="mt-2 text-gray-700">
         O Mabola é uma plataforma completa para gestão de campeonatos. Todo o design visual, experiência do usuário, fluxos de navegação e interface foram planeados e desenvolvidos por mim.
       </p>
 
       <div class="mt-4 grid grid-cols-1 md:grid-cols-3 gap-4">
-        <img src="screenshot1.jpg" class="rounded-lg shadow" alt="Screenshot 1" />
-        <img src="screenshot2.jpg" class="rounded-lg shadow" alt="Screenshot 2" />
-        <img src="screenshot3.jpg" class="rounded-lg shadow" alt="Screenshot 3" />
+        <img src="images/Dashboard.jpg" class="rounded-lg shadow" alt="Dashboard" />
+        <img src="images/Login.jpg" class="rounded-lg shadow" alt="Login" />
+        <img src="images/Tabela_classificacao.jpg" class="rounded-lg shadow" alt="Tabela Classificação" />
       </div>
 
-      <ul class="list-disc ml-6 mt-4 text-sm">
+      <ul class="list-disc ml-6 mt-4 text-gray-700">
         <li>Navegação estruturada para equipas, jogos e estatísticas</li>
         <li>Interfaces responsivas e intuitivas</li>
         <li>Calendário dinâmico com jogos futuros e atrasados</li>
@@ -69,28 +70,27 @@
         <li>Autenticação e roles (admin/usuário)</li>
       </ul>
 
-      <a href="https://github.com/elanguelo" class="inline-block mt-4 text-blue-600 font-semibold">Ver no GitHub →</a>
+      <a href="https://github.com/elanguelo" class="inline-block mt-4 text-blue-600 font-semibold hover:underline">Ver no GitHub →</a>
     </div>
 
-    <!-- OUTRO PROJETO EXEMPLO -->
-    <div class="mb-10">
-      <h3 class="text-xl font-semibold">Outro Projeto</h3>
-      <p class="mt-2">Adicione aqui outro projeto seu com descrição e imagens.</p>
-
-      <div class="mt-4 grid grid-cols-1 md:grid-cols-3 gap-4">
-        <img src="placeholder.jpg" class="rounded-lg shadow" alt="Screenshot" />
-      </div>
+    <!-- OUTRO PROJETO -->
+    <div class="mb-10 p-4 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
+      <h3 class="text-2xl font-semibold">Organizador de Pastas e Ficheiros</h3>
+      <p class="mt-2 text-gray-700">Desenvolvido em Python, organiza diretórios e ficheiros no computador com base no tipo de cada arquivo.</p>
+      <a href="https://github.com/elanguelo" class="inline-block mt-4 text-blue-600 font-semibold hover:underline">Ver no GitHub →</a>
     </div>
+
   </section>
 
   <!-- CONTACTO -->
-  <section class="max-w-5xl mx-auto p-6 mt-6 bg-white shadow rounded-xl mb-10">
-    <h2 class="text-2xl font-semibold mb-4">Contacto</h2>
-    <p>Email: <strong>edilson.languelo@gmail.com</strong></p>
-    <p class="mt-1">Telefone: 844564693</p>
-    <p class="mt-1">GitHub: <a href="https://github.com/elanguelo" class="text-blue-600">github.com/elanguelo</a></p>
+  <section class="max-w-5xl mx-auto p-8 mt-8 bg-white shadow-md rounded-xl mb-10">
+    <h2 class="text-3xl font-semibold mb-4 border-b-2 pb-2 border-gray-200">Contacto</h2>
+    <p class="text-gray-700">Email: <strong>edilson.languelo@gmail.com</strong></p>
+    <p class="mt-1 text-gray-700">Telefone: 844564693 • 878444495</p>
+    <p class="mt-1 text-gray-700">GitHub: <a href="https://github.com/elanguelo" class="text-blue-600 hover:underline">github.com/elanguelo</a></p>
   </section>
 
 </body>
 </html>
+
 
